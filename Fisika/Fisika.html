@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FISIKA</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="img"><img src="../media/LOGO KUREAL darker-01.svg" alt="Logo">KUREAL</h1>
+        <ul class="tombol">
+            <li><a href="../Index.html">Home</a></li>
+            <li><a href="../Index.html">About me</a></li>
+        </ul>
+    </div>
+    <div class="sidebar">
+        <h1>Sidebar</h1>
+        <div class="menu">
+                <li class="sidelink" id="search">
+                    <form>
+                        <i class='bx bx-search-alt'></i>
+                        <input type="search" placeholder="Search...">
+                    </form>
+                </li>
+            <li class="sidelink">
+                <a href="../Jadwal.pdf">
+                    <i class='bx bxs-calendar' ></i>
+                    <span class="text nav-text">Jadwal</span>
+                </a>
+            </li>
+            <li class="sidelink">
+                <a href="https://pomofocus.io/">
+                    <i class='bx bx-timer' ></i>
+                    <span class="text nav-text">Pomodoro</span>
+                </a>
+            </li>
+            <li class="sidelink">
+                <a href="https://ChatGPT.com/">
+                    <i class='bx bxs-brain' ></i>
+                    <span class="text nav-text">Chat GPT</span>
+                </a>
+            </li>
+            <li class="sidelink">
+                <a href="https://www.google.com/search?q=calculator&oq=calcul&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyBggBEEUYOTINCAIQABiDARixAxiABDIKCAMQABixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDINCAYQABiDARixAxiABDIGCAcQRRg8qAIIsAIB&sourceid=chrome&ie=UTF-8">
+                    <i class='bx bx-math' ></i>
+                    <span class="text nav-text">Calculator</span>
+                </a>
+            </li>
+        </div>
+    </div>
+    <h1 class="header">FISIKA</h1>
+    <div class="isi">
+        <ol class="">
+            <li><h2>Pengukuran dalam kerja ilmiah</h2></li>
+            <button id="toggleButton1"><i class='bx bx-chevron-down' ></i></button>
+            <div class="hidden materi" id="toggleMateri1">
+                <ol>
+                    <li><h3>Macam macam alat ukur</h3></li>
+                    <p>Terdapat banyak sekali alat ukur yang dapat kalian jumpai dalam kehidupan sehari-hari.</p>
+                    <p>Alat ukur yang tersebut digunakan bergantung dengan apa yang diukur dari benda yang ingin diketahui ukurannya</p>
+                    <p>Alat ukur diantaranya:</p>
+                    <ol>
+                        <li>Timbangan</li>
+                        <li>Meteran</li>
+                        <li>Stopwatch</li>
+                        <li>Termometer</li>
+                        <li>Jangka Sorong</li>
+                        <li>Gelas takar, dll</li>
+                    </ol>
+                    <br>
+                    <li><h3>Besaran</h3></li>
+                    <p>Besaran merupakan sesuatu yang akan diukur.</p>
+                    <p>Besaran terdiri atas dua kelompok besaran, yaitu besaran pokok dan besaran turunan.</p>
+                    <ul>
+                        <li>Besaran pokok</li>
+                        <p>merupakan besaran dasar yang satuannya sudah ditetapkan</p>
+                        <li>Besaran turunan</li>
+                        <p>merupakan besaran yang satuannya tersusun dari beberapa satuan besaran pokok</p>
+                    </ul>
+                    <br>
+                    <li><h3>Sistem satuan</h3></li>
+                    <p>Satuan merupakan ukuran yang menjadi acuan dari suatu besaran.</p>
+                    <p>Masyarakat ilmiah bersama-sama membuat kesepakatan tentang satu sistem satuan baku yang resmi digunakan secara universal yang disebut <u><b>Satuan Internasional (SI).</b></u></p>
+                    <table>
+                        <tr>
+                            <th>NO</th>
+                            <th>Nama Besaran</th>
+                            <th>Lambang Besaran</th>
+                            <th>Satuan SI</th>
+                            <th>Dimensi</th>
+                        </tr>
+                        <tr class="table2">
+                            <th>1</th>
+                            <td>Panjang</td>
+                            <td>l</td>
+                            <td>Meter (m)</td>
+                            <td>[L]</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Massa</td>
+                            <td>m</td>
+                            <td>Kilogram (Kg)</td>
+                            <td>[M]</td>
+                        </tr>
+                        <tr class="table2">
+                            <th>3</th>
+                            <td>Waktu</td>
+                            <td>t</td>
+                            <td>Sekon (s)</td>
+                            <td>[T]</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td>Kuat arus listrik</td>
+                            <td>i</td>
+                            <td>Ampere (A)</td>
+                            <td>[I]</td>
+                        </tr>
+                        <tr class="table2">
+                            <th>5</th>
+                            <td>Suhu mutlak</td>
+                            <td>T</td>
+                            <td>Kelvin (K)</td>
+                            <td>[θ] (Theta)</td>
+                        </tr>
+                        <tr>
+                            <th>6</th>
+                            <td>Intensitas cahaya</td>
+                            <td>I</td>
+                            <td>Candela (Cd)</td>
+                            <td>[J]</td>
+                        </tr>
+                        <tr class="table2">
+                            <th>7</th>
+                            <td>Jumlah zat</td>
+                            <td>n</td>
+                            <td>Mol (mol)</td>
+                            <td>[N]</td>
+                        </tr>
+                    </table>
+                    <p>Dimensi merupakan cara suatu besaran turunan disusun berdasarkan besaran pokoknya.</p>
+                    <p>Dimensi dari besaran pokok berupa lambang yang ditulis dengan kurung siku dan huruf kapital tertentu seperti yang ditunjukan pada tabel diatas</p>
+                    <li><h3>Jangka Sorong</h3></li>
+                    <img src="Jangka Sorong.jpg" alt="Jangka Sorong" class="img-large">
+                    <p>Jadi berdasarkan bagian-bagian jangka sorong tersebut kita mengetahui bahwa, jangka sorong memiliki dua skala yaitu skala utama dan skala nonius.</p>
+                    <p>Ketika mengukur menggunakan jangka sorong pasti ada saja kesalahan pengukuran karena tidak teliti, nah itu disebutnya nilai ketidakpastian</p>
+                    <p>Rumus dari nilai ketidakpastian adalah:</p>
+                    <p><b>△x = 1/2 x nilai skala terkecil</b></p>
+                    <p>Nah jadi perhitungan hasil akhir itu harus dengan dicantumkan nilai ketidakpastian tersebut, sehingga rumus akhir untuk mengetahui nilai pengukurannya adalah:</p>
+                    <p><b>x ± △x</b></p>
+                    <li><h3>Mikrometer Sekrup</h3></li>
+                    <img src="Mikrometer sekrup.png" alt="Mikrometer sekrup" class="img-large">
+                    <p>Pada mikrometer sekrup berlaku rumus yang sama dalam pengukuran yakni mencantumkan nilai ketidakpastian layaknya jangka sorong</p>
+                    <li><h3>Aturan Angka Penting dan Notasi Ilmiah</h3></li>
+                    <p>Ketika menghitung menggunakan kalkulator, ada kalanya hasilnya panjang banyet tergantung perhitungan.</p>
+                    <p>Contohnya: 7,641404</p>
+                    <p>Nah karena itu memusingkan dan panjang, maka ada aturan namanya aturan angka penting</p>
+                    <h4>Aturan angka penting</h4>
+                    <p>adalah aturan pembulatan dan cara penulisan hasil pengolahan data yang disepakati untuk membulatkan hasil pengolahan.</p>
+                    <p>Misalnya mencari luas permukaan tutup botol berdiameter 3,12cm diukur dengan jangka sorong</p>
+                    <p>setelah dihitung hasil luasnya adalah 7,641404</p>
+                    <p>Penentuan angka penting itu dari diameter tutup botolnya, jadi pembulatannya cukup tiga angka sesuai dengan diameter tutup botol yang hanya 3 angka yaitu 3,12</p>
+                    <p>jadi pembulatan hasil luasnya adalah 7,64</p>
+                    <li><h3>Nilai ketidak pastian pada pengukuran berulang</h3></li>
+                    <p>Manusia pasti tidak luput dari namanya kelalaian dan kesalahan.</p>
+                    <p>Begitupun dalam pengukuran</p>
+                    <p>Jadi ketika mengukur jangan cuman sekali ya!</p>
+                    <p>Minimal harus lima kali</p>
+                    <p>Karena dihitungnya lima kali, maka nilai ketidakpastiannya pun jadi ada lima ya kan?</p>
+                    <p>Untuk mendapatkan nilai ketidakpastian pengukuran berulang bisa menggunakan rumus persamaan standar deviasi berikut ini:</p>
+                    <img src="Rumus ketidakpastian.jpg" alt="Rumus Ketidakpastian" width="700px">
+                    <p>Penjelasan cara mengerjakan rumus ini</p>
+                    <video src="How To Calculate The Standard Deviation (720p, h264, youtube).mp4"
+                        width="100%"
+                        controls
+                    ></video>
+                </ol>
+            </div>
+            <li><h2>Usaha dan energi</h2></li>
+            <button id="toggleButton2"><i class='bx bx-chevron-down' ></i></button>
+            <div class="hidden materi" id="toggleMateri2">
+            </div>
+            <li><h2>Sumber energi</h2></li>
+            <button id="toggleButton3"><i class='bx bx-chevron-down' ></i></button>
+            <div class="hidden materi" id="toggleMateri3">
+            </div>
+            <li><h2>Pemanasan global dan perubahan iklim</h2></li>
+            <button id="toggleButton4"><i class='bx bx-chevron-down' ></i></button>
+            <div class="hidden materi" id="toggleMateri4">
+            </div>
+            <li><h2>Alam semesta dan tata surya</h2></li>
+            <button id="toggleButton5"><i class='bx bx-chevron-down' ></i></button>
+            <div class="hidden materi" id="toggleMateri5">
+            </div>
+        </ol>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

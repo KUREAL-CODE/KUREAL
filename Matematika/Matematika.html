@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="img"><img src="../media/LOGO KUREAL darker-01.svg" alt="Logo">KUREAL</h1>
+        <ul class="tombol">
+            <li><a href="../Index.html">Home</a></li>
+            <li><a href="../Index.html">About me</a></li>
+        </ul>
+    </div>
+    <div class="sidebar">
+        <h1>Sidebar</h1>
+        <div class="menu">
+                <li class="sidelink" id="search">
+                    <form>
+                        <i class='bx bx-search-alt'></i>
+                        <input type="search" placeholder="Search...">
+                    </form>
+                </li>
+            <li class="sidelink">
+                <a href="../Jadwal.pdf">
+                    <i class='bx bxs-calendar' ></i>
+                    <span class="text nav-text">Jadwal</span>
+                </a>
+            </li>
+            <li class="sidelink">
+                <a href="https://pomofocus.io/">
+                    <i class='bx bx-timer' ></i>
+                    <span class="text nav-text">Pomodoro</span>
+                </a>
+            </li>
+            <li class="sidelink">
+                <a href="https://ChatGPT.com/">
+                    <i class='bx bxs-brain' ></i>
+                    <span class="text nav-text">Chat GPT</span>
+                </a>
+            </li>
+            <li class="sidelink">
+                <a href="https://www.google.com/search?q=calculator&oq=calcul&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyBggBEEUYOTINCAIQABiDARixAxiABDIKCAMQABixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDINCAYQABiDARixAxiABDIGCAcQRRg8qAIIsAIB&sourceid=chrome&ie=UTF-8">
+                    <i class='bx bx-math' ></i>
+                    <span class="text nav-text">Calculator</span>
+                </a>
+            </li>
+            <li class="sidelink">
+                <a href="https://www.desmos.com/calculator?lang=id">
+                    <i class='bx bx-signal-5'></i>
+                    <span class="text nav-text">Grafik</span>
+                </a>
+            </li>
+        </div>
+    </div>
+    <h1 class="header">MATEMATIKA</h1>
+    <div class="isi">
+        <ol class="">
+            <li><h2>Eksponen</h2></li>
+            <button id="toggleButton1"><i class='bx bx-chevron-down' ></i></button>
+            <div class="hidden materi" id="toggleMateri1">
+                <p>2x2x2x2=2<sup>4</sup></p>
+                <p>3x3x3=3<sup>3</sup></p>
+                <br>
+                <p>X disebut bilangan pokok(basis)</p>
+                <p>n disebut bilangan pangkat(Eksponen)</p>
+                <p>X<sup>n</sup>=X.X.X.X.X.X...</p>
+                <br>
+                <p>(-2)<sup>3</sup>=(-8)</p>
+                <p>(-2)<sup>4</sup>=(16)</p>
+                <p><b>Jika bilangan pangkat adalah ganjil, maka hasil perpangkatan pasti minus (-)</b></p>
+                <p><b>Jika bilangan pangkat adalah genap, maka hasil perpangkatan pasti plus (+)</b></p>
+                <br>
+                <p>(1/3)<sup>2</sup>=1/3x1/3=1/9</p>
+                <h3>Sifat Sifat Eksponen</h3>
+                <p><b>Sifat pertama : a<sup>m</sup> x a<sup>n</sup> = a<sup>m</sup> + <sup>n</sup></b></p>
+                <br>
+                <p>Contoh :</p>
+                <p>2<sup>3</sup>X2<sup>4</sup>=2<sup>3</sup>+<sup>4</sup></p>
+                <p>2<sup>7</sup></p>
+                <br>
+                <p>3<sup>5</sup>X3<sup>2</sup>=3<sup>5</sup>+<sup>2</sup></p>
+                <p>3<sup>7</sup></p>
+                <br>
+                <p>X<sup>3</sup>.X<sup>9</sup>=X<sup>3</sup>+<sup>9</sup></p>
+                <p>X<sup>12</sup></p>
+                <p>Bilangan pokok(basis) harus sama, tidak boleh beda</p>
+                <hr>
+                <p><b>Sifat kedua : a<sup>m</sup> : a<sup>n</sup> = a<sup>m</sup> - <sup>n</sup></b></p>
+                <br>
+                <p>Contoh :</p>
+                <p>2<sup>3</sup>:2<sup>4</sup>=2<sup>3</sup>-<sup>4</sup></p>
+                <p>2<sup>-1</sup></p>
+                <br>
+                <p>3<sup>5</sup>:3<sup>2</sup>=3<sup>5</sup>-<sup>2</sup></p>
+                <p>3<sup>3</sup></p>
+                <br>
+                <p>X<sup>3</sup>:X<sup>9</sup>=X<sup>3</sup>-<sup>9</sup></p>
+                <p>X<sup>-6</sup></p>
+                <p>Bilangan pokok(basis) harus sama, tidak boleh beda</p>
+                <hr>
+                <p><b>Sifat ketiga : (a<sup>m</sup>)<sup>n</sup>=a<sup>m</sup><sup>x</sup><sup>n</sup></b></p>
+                <hr>
+                <p><b>Sifat keempat : a<sup>m</sup>xb<sup>m</sup>=(axb)<sup>m</sup></b></p>
+                <hr>
+                <p><b>Sifat kelima : a<sup>m</sup>:b<sup>m</sup>=(a/b)<sup>m</sup></b></p>
+                <hr>
+                <p><b>Sifat keenam : a<sup>-m</sup>=(1/a<sup>m</sup>)</b></p>
+                <hr>
+                <p><b>Sifat ketujuh : a<sup>n/m</sup>=a<sup>n</sup>akar m</b></p>
+                <br>
+            </div>
+            <li><h2>Logaritma</h2></li>
+            <button id="toggleButton2"><i class='bx bx-chevron-down' ></i></button>
+            <div class="hidden materi" id="toggleMateri2">
+
+            </div>
+        </ol>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
